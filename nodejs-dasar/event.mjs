@@ -5,7 +5,7 @@ emitter.addListener("hello", (name) => {
     console.info(`Hello ${name}`);
 });
 emitter.addListener("hello", (name) => {
-    console.info(`Hello ${name}`);
+    console.info(`Halo ${name}`);
 });
 
 emitter.emit("hello", "johar");
