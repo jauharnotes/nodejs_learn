@@ -1,6 +1,6 @@
 function sayHello(name) {
-    debugger;
-    return `Hello ${name}`;
+  debugger;
+  return `Hello ${name}`;
 }
 
 const name = "Johar";
