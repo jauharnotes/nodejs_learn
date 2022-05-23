@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-unit-test-with-jest",
+  "version": "1.0.0",
+  "description": "nodejs unit test best practice",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "jauharuddin",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
