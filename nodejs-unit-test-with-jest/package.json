@@ -4,12 +4,17 @@
   "description": "nodejs unit test best practice",
   "main": "./src/index.js",
   "type": "module",
-  "scripts": {
+  "scripts": { 
     "test": "jest"
+  },
+  "jest": {
+    "verbose": true
   },
   "author": "jauharuddin",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-env": "^7.18.0",
+    "babel-jest": "^28.1.0",
     "jest": "^28.1.0"
   }
 }
